@@ -1,0 +1,10 @@
+{{ 'featured-product.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-product-root">
+  <h2>Featured Products</h2>
+  <div class="featured-product">
+    {% for product in collections['automated-collection'].products %}
+      {% render 'product-card', product: product %}
+    {% endfor %}
+  </div>
+</div>

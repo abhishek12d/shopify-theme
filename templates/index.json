@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "featured_products": {
+      "type": "featured-products"
+    }
+  },
+  "order": ["featured_products"]
+}

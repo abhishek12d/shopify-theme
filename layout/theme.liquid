@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="{{ 'fetch-api.js' | asset_url }}" defer="defer"></script>
+    <title>{{ shop.name }}</title>
+    <script src="https://kit.fontawesome.com/2ba0febf51.js" crossorigin="anonymous"></script>
+    {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ content_for_header }}
+  </head>
+  <body>
+    {{ content_for_layout }}
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<div class="cart-bottom-content">
+  <div class="cart-product">
+    <div class="cart-product-image">
+      <img src="{{ item.product.featured_image | image_url }}" alt="cart product">
+    </div>
+    <div class="cart-product-content-wrapper">
+      <p class="cart-product-title">{{ item.title }}</p>
+      <p class="cart-product-price">{{ item.price | money }}</p>
+    </div>
+  </div>
+  <div class="cart-quantity">
+    <div class="cart-quantity-wrapper">
+      <button class="cart-minus-plus-btn" data-action="decrease" data-item-id="{{ item.id }}">-</button>
+      <input
+        type="text"
+        class="quantity-input"
+        id="{{ item.id }}"
+        value="{{ item.quantity }}"
+        readonly
+      >
+      <button class="cart-minus-plus-btn" data-action="increase" data-item-id="{{ item.id }}">+</button>
+    </div>
+    <button class="delete-cart-item" data-item-id="{{ item.id }}"><i class="fa-solid fa-trash"></i></button>
+  </div>
+  <div class="{{ 'cart-total-column cart-total-' | append: item.id }}" data-price="{{ item.price }}">
+    <p>{{ item.price | times: item.quantity | money }}</p>
+  </div>
+</div>
