@@ -114,11 +114,65 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "d708d001-3822-4fe2-8d82-cd9dd5b2ceae": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17182252859610__d708d001-3822-4fe2-8d82-cd9dd5b2ceae-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Snowboard Customization<\/strong>",
+            "text": "<p>Unleash Your Style on the Slopes<br\/>Elevate your snowboarding experience with our customization services. Choose your colors and graphics to create a snowboard that reflects your unique style.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17182252859610__d708d001-3822-4fe2-8d82-cd9dd5b2ceae-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Expert Gear Advice<\/strong>",
+            "text": "<p>Navigate Winter with Confidence. Our seasoned professionals are here to guide you in selecting the perfect snowboarding gear. From choosing the right board to finding the ideal accessories<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17182252859610__d708d001-3822-4fe2-8d82-cd9dd5b2ceae-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Maintenance & Repairs<\/strong>",
+            "text": "<p>rust our skilled technicians to keep your snowboard in top-notch shape. Whether it's routine maintenance or repairs, we provide meticulous care to ensure your gear performs at its best.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17182252859610__d708d001-3822-4fe2-8d82-cd9dd5b2ceae-column-1",
+        "template--17182252859610__d708d001-3822-4fe2-8d82-cd9dd5b2ceae-column-2",
+        "template--17182252859610__d708d001-3822-4fe2-8d82-cd9dd5b2ceae-column-3"
+      ],
+      "settings": {
+        "title": "Our Services",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "collage"
+    "collage",
+    "d708d001-3822-4fe2-8d82-cd9dd5b2ceae"
   ]
 }
